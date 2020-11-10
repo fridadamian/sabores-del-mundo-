@@ -1,3 +1,36 @@
+
+body {
+    font-size: 18 px;
+    background-color:black;
+    color: black
+}
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 30px;
+    
+}
+
+.pie {
+    background-color: red;
+    align-content: center;
+}
+
+ul {
+    display: flex; 
+    align-content: center;
+    align-self: center;
+    margin-left: 200px;
+}
+
+.logo {
+    width: 650px;
+    height: 100px;
+}
+
 @font-face {
     font-family: 'Product Sans';
     src: url("fonts/ProductSans.woff2");
@@ -7,7 +40,7 @@ body {
     font-size: 18px;
     color:rgb(255, 255, 255);
     font-family: 'Product Sans', 'Arial';
-    background-color: #fff176 !important;
+    background-color:#F9F2EA
 }
 
 a {
@@ -27,119 +60,4 @@ nav.flex {
     font-family: 'Product Sans', 'Arial';
     background-color: rgb(235, 232, 232)
     
-}
-
-
-
-ul {
-    display: flex; 
-    align-content: center;
-    align-self: center;
-    margin-left: 50px;
-    list-style: none;
-}
-
-.logo {
-    width: 650px;
-    height: 100px;
-}
-
-.papitas {
-    width:  240px;
-    margin left: 40px;
-    height: 300px;
-}
-
-.pasta {
-    width: 280px;
-    height: 300px;
-}
-
-.burger{
-    width: 290px;
-    height: 300px;
-}
-
-.burger2{
-    width: 290px;
-    height: 300px;
-}
-
-.pastel{
-    width: 300px;
-    height: 300px;
-}
-
-.papitas2{
-    width: 270px;
-    height: 300px;
-    margin-right: 10px;
-}
-
-.pizza{
-    width: 300px;
-    height: 300px;
-    margin-left: 12px;
-}
-
-.burger3{
-    width: 260px;
-    height: 300px;
-}
-
-.taco{
-    width: 280px;
-    height: 300px;
-}
-
-.chinese{
-    width: 250px;
-    height: 300px;
-}
-
-a:hover {
-    color: grey;
-}
-
-.video1 {
-    margin-top: 20px;
-}
-
-.foodies {
- font font-family: coolvetica;
- src: url(./)
-}
-
-.sushi {
-    width: 300px;
-    height: 350px;
-}
-
-.rae {
-    width: 300px;
-    height: 350px;
-}
-
-.sushi {
-    width: 300px;
-    height: 350px;
-}
-
-.calzone {
-    width: 300px;
-    height: 350px;
-}
-.pastaalf {
-    width: 300px;
-    height: 350px;
-}
-
-.macsan {
-    width: 300px;
-    height: 350px;
-}
-
-.sand {
-    width: 300px;
-    height: 350px;
 }
