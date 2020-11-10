@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Product Sans';
+    src: url('../fonts/ProductSans.woff2')
+}
+
+body {
+    font-family: 'Product Sans';
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 32px;
+}
