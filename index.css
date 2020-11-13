@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "alte";
+    src: url(./fonts/AlteHaasGroteskBold.ttf)
+}
 
 body {
     font-size: 18 px;
@@ -5,7 +9,9 @@ body {
     color: black
 }
 
-
+a:hover {
+    color: red;
+}
 .nav {
     display: flex;
     align-items: center;
@@ -17,6 +23,9 @@ body {
 .pie {
     background-color: red;
     align-content: center;
+    text-align: center;
+    font-size: 15px;
+    background-size: 500px;
 }
 
 ul {
@@ -24,11 +33,13 @@ ul {
     align-content: center;
     align-self: center;
     margin-left: 200px;
+    list-style: none;
 }
 
 .logo {
     width: 650px;
     height: 100px;
+    margin-bottom: px;
 }
 
 @font-face {
@@ -38,9 +49,7 @@ ul {
 
 body {
     font-size: 18px;
-    color:rgb(255, 255, 255);
-    font-family: 'Product Sans', 'Arial';
-    background-color:#F9F2EA
+    font-family: 'alte';
 }
 
 a {
@@ -56,8 +65,148 @@ nav.flex {
     display: flex;
     align-items: center;
     list-style: none;
-    margin-bottom: 30px;
-    font-family: 'Product Sans', 'Arial';
-    background-color: rgb(235, 232, 232)
+    margin-bottom: 0px;
+    font-family: 'alte';
     
+}
+
+.hamburguesa {
+    height: 800px;
+    width: 800px;
+    align-content: flex-end;
+
+}
+
+.fondo {
+    font-size: 100px;
+    font-family: "alte";
+    color: red;
+    background-color: #FBE690;
+    list-style: none;
+}
+
+.receta {
+    color: red;
+    font-size: 80px;
+    align-items: center;
+    text-align: center;
+    background-size: 700px;
+}
+
+.hamburguesa1 {
+    width: 380px;
+    height: 400px;
+}
+
+.hamburguesa2 {
+    width: 380px;
+    height: 400px;
+}
+
+.papas {
+    width: 380px;
+    height: 400px;
+
+}
+
+.postre {
+    width: 600px;
+    height: 500px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.imagenes {
+    font-size: 40px;
+    background-color: white;
+}
+
+.follow {
+color: black;
+font-size: 50px;
+text-align: center;
+margin-top: 40px;
+}
+
+.captura {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-right: 70px;
+}
+
+.collage {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.favoritas {
+    margin-top: 80px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu {
+    font-family: "alte";
+    color: red;
+    background-color: #FBE690;
+    font-size: 100px;
+}
+
+.hamb {
+    margin-top: 70px;
+    font-family: "alte";
+    color: black;
+    font-size: 30px;
+}
+
+.linea {
+    width: 1000px;
+    height: 6px;
+    align-content: center;
+    text-align: center;
+}
+
+.alitas {
+    margin-top: 110px;
+    font-family: "alte";
+    color: black;
+    font-size: 30px;
+}
+
+.contenido {
+    font-family: "alte";
+    color: black;
+    font-size: 20px;
+}
+
+.fries {
+    margin-top: 110px;
+    font-family: "alte";
+    color: black;
+    font-size: 30px;
+}
+
+.dessert {
+    margin-top: 110px;
+    font-family: "alte";
+    color: black;
+    font-size: 30px;
+}
+
+.pastelito {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.servicio {
+    color: black;
+}
+
+.ricas {
+    color: red;
 }
