@@ -93,21 +93,12 @@ nav.flex {
     background-size: 700px;
 }
 
-.hamburguesa1 {
-    width: 380px;
-    height: 400px;
+.hamburpapa {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.hamburguesa2 {
-    width: 380px;
-    height: 400px;
-}
-
-.papas {
-    width: 380px;
-    height: 400px;
-
-}
 
 .postre {
     width: 600px;
@@ -142,8 +133,8 @@ margin-top: 40px;
 .favoritas {
     margin-top: 80px;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .menu {
@@ -243,4 +234,12 @@ margin-top: 40px;
     font-family: "alte";
     color: black;
     font-size: 20px;
+}
+
+.boton {
+    color: white; 
+    background-color: red;"
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
