@@ -17,7 +17,7 @@ a:hover {
     align-items: center;
     list-style: none;
     margin-bottom: 30px;
-    
+    background-color: white;
 }
 
 .pie {
@@ -151,10 +151,11 @@ margin-top: 40px;
     color: red;
     background-color: #FBE690;
     font-size: 100px;
+    margin-top: 40px;
 }
 
 .hamb {
-    margin-top: 70px;
+    margin-top: 60px;
     font-family: "alte";
     color: black;
     font-size: 30px;
@@ -205,8 +206,41 @@ margin-top: 40px;
 
 .servicio {
     color: black;
+    font-size: 75px;
 }
 
 .ricas {
     color: red;
+    font-size: 100px;
+}
+
+.contactanos {
+    flex: auto;
+    font-family: "alte";
+    color: black;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.msj {
+    flex: auto;
+    font-family: "alte";
+    color: black;
+    font-size: 25px;
+}
+
+.envio {
+    font-family: "alte"
+}
+
+.open {
+    font-family: "alte";
+    color: black;
+    font-size: 50px;
+}
+
+.horario {
+    font-family: "alte";
+    color: black;
+    font-size: 20px;
 }
