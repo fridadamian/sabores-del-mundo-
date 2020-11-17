@@ -147,7 +147,7 @@ margin-bottom: 40px;
     font-family: "alte";
     color: black;
     font-size: 35px;
-    margin-left: 20%;
+    margin-left: 22%;
     margin-bottom: 0;
 }
 
@@ -171,9 +171,8 @@ margin-bottom: 40px;
     font-family: "alte";
     color: black;
     font-size: 20px;
-    margin-left: 20%;
-    margin-right: 40%;
-    align-content: center;
+    margin-left: 22%;
+    margin-right: 30%;
 }
 
 .fries {
@@ -193,7 +192,7 @@ margin-bottom: 40px;
 }
 
 .pastelito {
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom:100px;
     display: block;
     margin-left: auto;
@@ -232,7 +231,7 @@ margin-bottom: 40px;
     flex: auto;
     font-family: "alte";
     color: black;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .envio {
@@ -244,12 +243,16 @@ margin-bottom: 40px;
     font-family: "alte";
     color: black;
     font-size: 50px;
+    margin-left: 8%;
+    margin-top: 50px;
 }
 
 .horario {
     font-family: "alte";
     color: black;
     font-size: 20px;
+    margin-left: 8%;
+    margin-bottom: 50px;
 }
 
 .boton {
@@ -288,7 +291,7 @@ margin-bottom: 40px;
     border: 2px solid black;
     font-family: "alte";
     padding: 18px 40px;
-    font-size: 17px;
+    font-size: 15px;
     transition-duration: 0.4s;
     cursor: pointer;
     margin-top: 10px;
@@ -299,6 +302,35 @@ margin-bottom: 40px;
     color: white;
     border: none;
 }
+
+.sociales {
+    width: 150px;
+}
+
+.nombre {
+    font-size: 15px;
+    font-family: "alte";
+}
+
+.apellido {
+    font-size: 15px;
+    font-family: "alte";
+}
+
+.email {
+    font-size: 15px;
+    font-family: "alte";
+}
+
+.mensaje {
+    font-size: 15px;
+    font-family: "alte";
+}
+
+.papas4 {
+   
+}
+
 flex
 
 border css
