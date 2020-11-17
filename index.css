@@ -4,6 +4,7 @@
 }
 
 body {
+    margin: 0;
     font-size: 18 px;
     background-color:black;
     color: black
@@ -16,16 +17,17 @@ a:hover {
     display: flex;
     align-items: center;
     list-style: none;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     background-color: white;
+    padding: 25px ;
 }
 
 .pie {
     background-color: red;
     align-content: center;
     text-align: center;
-    font-size: 15px;
-    background-size: 500px;
+    font-size: 20px;
+    padding: 25px;
 }
 
 ul {
@@ -83,6 +85,7 @@ nav.flex {
     color: red;
     background-color: #FBE690;
     list-style: none;
+    
 }
 
 .receta {
@@ -97,32 +100,22 @@ nav.flex {
     display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-
-.postre {
-    width: 600px;
-    height: 500px;
-    margin-top: 70px;
-    margin-bottom: 70px;
+  margin-bottom: 60px;
 }
 
 .imagenes {
     font-size: 40px;
     background-color: white;
+    padding: 0em;
+    margin-bottom: 100px;
 }
 
 .follow {
 color: black;
 font-size: 50px;
 text-align: center;
-margin-top: 40px;
-}
-
-.captura {
-    margin-top: 70px;
-    margin-bottom: 70px;
-    margin-right: 70px;
+margin-top: 90px;
+margin-bottom: 40px;
 }
 
 .collage {
@@ -142,67 +135,88 @@ margin-top: 40px;
     color: red;
     background-color: #FBE690;
     font-size: 100px;
-    margin-top: 40px;
+    margin-top: 0px;
+    padding: 30px;
+    margin-bottom: 0;
+    margin-left: 15%;
+    background-size: auto;
 }
 
 .hamb {
-    margin-top: 60px;
+    margin-top: 50px;
     font-family: "alte";
     color: black;
-    font-size: 30px;
+    font-size: 35px;
+    margin-left: 20%;
+    margin-bottom: 0;
 }
 
 .linea {
-    width: 1000px;
-    height: 6px;
+    width: 800px;
+    height: 3px;
     align-content: center;
     text-align: center;
+    margin-left: 22%;
 }
 
 .alitas {
     margin-top: 110px;
     font-family: "alte";
     color: black;
-    font-size: 30px;
+    font-size: 35px;
+    padding: 40px;
 }
 
 .contenido {
     font-family: "alte";
     color: black;
     font-size: 20px;
+    margin-left: 20%;
+    margin-right: 40%;
+    align-content: center;
 }
 
 .fries {
     margin-top: 110px;
     font-family: "alte";
     color: black;
-    font-size: 30px;
+    font-size: 35px;
+    padding: 40px;
 }
 
 .dessert {
     margin-top: 110px;
     font-family: "alte";
     color: black;
-    font-size: 30px;
+    font-size: 35px;
+    padding: 40px;
 }
 
 .pastelito {
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom:100px;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
 .servicio {
     color: black;
-    font-size: 75px;
+    font-size: 60px;
+    width: 50%;
+    top: 30%;
+    position: absolute;
+    padding: 32px;
 }
 
 .ricas {
     color: red;
-    font-size: 100px;
+    font-size: 80px;
+    position: absolute;
+    width: 55%;
+    top: 50%;
+    padding: 32px;
 }
 
 .contactanos {
@@ -211,6 +225,7 @@ margin-top: 40px;
     color: black;
     font-size: 50px;
     margin-top: 50px;
+    margin-left: 8%;
 }
 
 .msj {
@@ -221,7 +236,8 @@ margin-top: 40px;
 }
 
 .envio {
-    font-family: "alte"
+    font-family: "alte";
+    font-size: 10px;
 }
 
 .open {
@@ -237,9 +253,52 @@ margin-top: 40px;
 }
 
 .boton {
+    width: 200px;
+    font-family: "alte";
+    bottom: 20px;
+    border: none;
+    padding: 16px;
+    font-size: .5em;
+    margin-bottom: 25px;
+    position: relative;
+    left: calc(50% - 100px);
     color: white; 
-    background-color: red;"
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: red;
+    transition-duration: 0.4s;
+    cursor: pointer;  
 }
+
+.boton:hover {
+    background-color: white;
+    color: red;
+    border: red;
+    border: 2px solid red;
+}
+
+.especialidad {
+    top: 100px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.enviar {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    font-family: "alte";
+    padding: 18px 40px;
+    font-size: 17px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.enviar:hover {
+    background-color: red;
+    color: white;
+    border: none;
+}
+flex
+
+border css
