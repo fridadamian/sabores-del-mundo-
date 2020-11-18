@@ -3,11 +3,26 @@
     src: url(./fonts/AlteHaasGroteskBold.ttf)
 }
 
+@keyframes slidein{
+    0% {color: red;}
+    50%{color: #FBE690;}
+    100%{color: red ;}
+}
+
+@keyframes rebote{
+    0%{bottom: 0px;}
+    25%{bottom: 5px;}
+    50%{bottom: 10px;}
+    75%{bottom: 5px;}
+    100% {bottom: 0px;}
+}
+
 body {
     margin: 0;
     font-size: 18 px;
     background-color:black;
-    color: black
+    color: black;
+    font-family: "alte";
 }
 
 a:hover {
@@ -49,17 +64,11 @@ ul {
     src: url("fonts/ProductSans.woff2");
 }
 
-body {
-    font-size: 18px;
-    font-family: 'alte';
-}
-
 a {
     text-decoration: none;
     color: black;
     font-size: 19px ;
     margin: 50px;
-
 }
 
 
@@ -68,15 +77,13 @@ nav.flex {
     align-items: center;
     list-style: none;
     margin-bottom: 0px;
-    font-family: 'alte';
-    
+    font-family: 'alte'; 
 }
 
 .hamburguesa {
     height: 800px;
     width: 800px;
     align-content: flex-end;
-
 }
 
 .fondo {
@@ -84,8 +91,7 @@ nav.flex {
     font-family: "alte";
     color: red;
     background-color: #FBE690;
-    list-style: none;
-    
+    list-style: none;  
 }
 
 .receta {
@@ -94,6 +100,9 @@ nav.flex {
     align-items: center;
     text-align: center;
     background-size: 700px;
+    animation-name: slidein;
+    animation-duration: 3s;
+    animation-iteration-count: initial;
 }
 
 .hamburpapa {
@@ -120,7 +129,7 @@ margin-bottom: 40px;
 
 .collage {
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 50px; 
 }
 
 .favoritas {
@@ -130,65 +139,54 @@ margin-bottom: 40px;
     margin-right: auto;
 }
 
-.menu {
-    font-family: "alte";
-    color: red;
-    background-color: #FBE690;
-    font-size: 100px;
-    margin-top: 0px;
-    padding: 30px;
-    margin-bottom: 0;
-    margin-left: 15%;
-    background-size: auto;
-}
-
 .hamb {
-    margin-top: 50px;
+    margin-top: 90px;
     font-family: "alte";
     color: black;
     font-size: 35px;
-    margin-left: 22%;
-    margin-bottom: 0;
-}
-
-.linea {
-    width: 800px;
-    height: 3px;
-    align-content: center;
-    text-align: center;
-    margin-left: 22%;
+    margin-left: 310px;
+    margin-bottom: 15px;
 }
 
 .alitas {
-    margin-top: 110px;
+    margin-top: 90px;
     font-family: "alte";
     color: black;
     font-size: 35px;
-    padding: 40px;
+    margin-left: 310px;
+    margin-bottom: 15px;
+}
+
+.fries {
+    margin-top: 90px;
+    font-family: "alte";
+    color: black;
+    font-size: 35px;
+    margin-left: 310px;
+    margin-bottom: 15px;
+}
+
+.dessert {
+    margin-top: 90px;
+    font-family: "alte";
+    color: black;
+    font-size: 35px;
+    margin-left: 310px;
+    margin-bottom: 15px;
 }
 
 .contenido {
     font-family: "alte";
     color: black;
     font-size: 20px;
-    margin-left: 22%;
-    margin-right: 30%;
-}
-
-.fries {
-    margin-top: 110px;
-    font-family: "alte";
-    color: black;
-    font-size: 35px;
-    padding: 40px;
-}
-
-.dessert {
-    margin-top: 110px;
-    font-family: "alte";
-    color: black;
-    font-size: 35px;
-    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 818px;
+    border-top: 3px solid red;
+    padding-top: 15px;
 }
 
 .pastelito {
@@ -197,7 +195,13 @@ margin-bottom: 40px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
 
+
+.pastelito:hover{
+    animation-name: rebote;
+    animation-duration: .5s;
+    position: relative;
 }
 
 .servicio {
@@ -227,32 +231,9 @@ margin-bottom: 40px;
     margin-left: 8%;
 }
 
-.msj {
-    flex: auto;
-    font-family: "alte";
-    color: black;
-    font-size: 23px;
-}
-
 .envio {
     font-family: "alte";
     font-size: 10px;
-}
-
-.open {
-    font-family: "alte";
-    color: black;
-    font-size: 50px;
-    margin-left: 8%;
-    margin-top: 50px;
-}
-
-.horario {
-    font-family: "alte";
-    color: black;
-    font-size: 20px;
-    margin-left: 8%;
-    margin-bottom: 50px;
 }
 
 .boton {
@@ -261,10 +242,10 @@ margin-bottom: 40px;
     bottom: 20px;
     border: none;
     padding: 16px;
-    font-size: .5em;
+    font-size: 17px;
     margin-bottom: 25px;
     position: relative;
-    left: calc(50% - 100px);
+    left: calc(50% - 140px);
     color: white; 
     background-color: red;
     transition-duration: 0.4s;
@@ -281,8 +262,8 @@ margin-bottom: 40px;
 .especialidad {
     top: 100px;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .enviar {
@@ -295,6 +276,8 @@ margin-bottom: 40px;
     transition-duration: 0.4s;
     cursor: pointer;
     margin-top: 10px;
+    margin-left: 8%;
+    margin-bottom: 300px
 }
 
 .enviar:hover {
@@ -303,34 +286,245 @@ margin-bottom: 40px;
     border: none;
 }
 
-.sociales {
-    width: 150px;
-}
-
 .nombre {
     font-size: 15px;
     font-family: "alte";
+    background: none;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 50px;
 }
 
 .apellido {
     font-size: 15px;
     font-family: "alte";
+    background: none;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 50px
 }
 
 .email {
     font-size: 15px;
     font-family: "alte";
+    background: none;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px
 }
 
 .mensaje {
     font-size: 15px;
     font-family: "alte";
+    background: none;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px
 }
 
-.papas4 {
+.nombre2{
+    font-size: 15px;
+    font-family: "alte";
+    margin-left: 8%;
+}
+
+.apellido2{
+    font-size: 15px;
+    font-family: "alte";
+    margin-left: 8%;
+}
+
+.email2{
+    font-size: 15px;
+    font-family: "alte";
+    margin-left: 8%;
+}
+
+.mensaje2{
+    font-size: 15px;
+    font-family: "alte";
+    margin-left: 8%;
+}
+
+.menu-boton {
+    width: 200px;
+    font-family: "alte";
+    bottom: 20px;
+    border: none;
+    padding: 16px;
+    font-size: .5em;
+    margin-bottom: 25px;
+    position: relative;
+    left: calc(50% - 100px);
+    color: white; 
+    background-color: red;
+    transition-duration: 0.4s;
+    cursor: pointer;  
+}
+
+.titulomenu {
+    font-family: "alte";
+    color: red;
+    font-size: 100px;
+    margin-left: 15%;
+}
+
+.menu {
+    background-color: #FBE690;
+    margin-top: 0px;
+    padding: 30px;
+    margin-bottom: 0;  
+    background-size: auto;
+}
+
+.product {
+    font-family: "alte";
+    color: black;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 15px;
+}
+
+.lunes{
+    font-family: "alte";
+    color: black;
+    font-size: 20px;
+    
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.calle {
+    font-family: "alte";
+    color: black;
+    font-size: 20px;
+    
+}
+
+.tel {
+    font-family: "alte";
+    color: black;
+    font-size: 20px;
+    
+    margin-top: 40px;
+}
+
+.conta {
+    flex: auto;
+    font-family: "alte";
+    color: black;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 50%;
+}
+
+.datos {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.open {
+    font-family: "alte";
+    color: black;
+    font-size: 50px;
+}
+
+.msj {
+    flex: auto;
+    font-family: "alte";
+    color: black;
+    font-size: 23px;
+    margin-left: 10%;
+}
+
+.sociales {
+    width: 150px;
+    
+    margin-top: none;
+}
+
+.arroba {
+    font-family: "alte";
+    color: black;
+    font-size: 20px;
    
+    margin-top: 40px;
+    margin-bottom: none;
+}
+.pro1 {
+    margin-left: 95px;
 }
 
-flex
+.pro2 {
+    margin-left: 95px;
+}
 
-border css
+.pro3 {
+    margin-left: 95px;
+}
+
+.pro4 {
+    margin-left: 95px;
+}
+
+.productos {
+    margin-bottom: 10px;
+}
+
+.contacc {
+    display: flex;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    width: 150px;
+}
+
+.last {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    width: 150px;
+}
+
+.mail {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    width: 150px;
+}
+
+.mens{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    width: 150px;
+}
+
+.todo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+.class {
+    margin: 30px;
+}
+
+.fl {
+    display: flex;
+    align-items: center;
+}
+
+.mm {
+    display: flex;
+    align-items: center;
+}
+
