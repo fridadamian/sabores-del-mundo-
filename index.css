@@ -106,7 +106,7 @@ nav.flex {
     background-size: 700px;
     animation-name: slidein;
     animation-duration: 5s;
-    animation-iteration-count: initial;
+    animation-iteration-count: infinite;
     animation-delay: 0s;
     animation-fill-mode: forwards;
 }
@@ -193,20 +193,6 @@ margin-bottom: 40px;
     width: 818px;
     border-top: 3px solid red;
     padding-top: 15px;
-}
-
-.pastelito {
-    margin-top: 50px;
-    margin-bottom:100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.pastelito:hover{
-    animation-name: rebote;
-    animation-duration: .5s;
-    position: relative;
 }
 
 .servicio {
@@ -342,6 +328,9 @@ margin-bottom: 40px;
 .enviar:hover {
     background-color: red;
     color: white;
+    border: none;
+}
+.emviar:visited {
     border: none;
 }
 
@@ -537,4 +526,27 @@ margin-bottom: 40px;
     font-size: 23px;
     margin-left: 10%;
     margin-bottom: 20px;
+}
+
+.videos {
+    margin-left: 174px;
+    margin-bottom: 100px;
+}
+
+.pastelito {
+    margin-top: 90px;
+    margin-bottom:100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pastelito:hover{
+    animation-name: rebote;
+    animation-duration: .5s;
+    position: relative;
+}
+
+.vid1 {
+    border: none;
 }
