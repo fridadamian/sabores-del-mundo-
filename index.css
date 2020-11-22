@@ -3,10 +3,21 @@
     src: url(./fonts/AlteHaasGroteskBold.ttf)
 }
 
+@font-face {
+    font-family: 'Product Sans';
+    src: url("fonts/ProductSans.woff2");
+}
+
 @keyframes slidein{
     0% {color: red;}
     50%{color: #FBE690;}
     100%{color: red ;}
+}
+
+@keyframes mov{
+    0%{margin-left: 310px;}
+    50%{margin-left: 350px;}
+    0%{margin-left: 310px;}
 }
 
 @keyframes rebote{
@@ -17,8 +28,42 @@
     100% {bottom: 0px;}
 }
 
-@keyframes aparecer{
+@keyframes rebote2{
+    0%{bottom: 0px;}
+    25%{bottom: 5px;}
+    50%{bottom: 6px;}
+    75%{bottom: 5px;}
+    100% {bottom: 0px;}
+}
 
+@keyframes aparecer{
+    from {opacity: 0;}
+    to{opacity: 1;}
+}
+
+@keyframes aparecer2{
+    from {opacity: .4;}
+    to{opacity: 1;}
+}
+
+@keyframes move2{
+    from {width: 750px;}
+    to {width: 1295px;}
+}
+
+@keyframes move3{
+    from {width: 1295px;}
+    to {width: 1360px;}
+}
+
+@keyframes move4{
+    from {width: 850px;}
+    to {width: 900px;}
+}
+
+@keyframes move5{
+    from {width: 1200px;}
+    to {width: 1250px;}
 }
 
 body {
@@ -32,13 +77,14 @@ body {
 a:hover {
     color: red;
 }
+
 .nav {
     display: flex;
     align-items: center;
     list-style: none;
     margin-bottom: 0px;
     background-color: white;
-    padding: 25px ;
+    padding: 20px ;
 }
 
 .pie {
@@ -53,19 +99,41 @@ ul {
     display: flex; 
     align-content: center;
     align-self: center;
-    margin-left: 200px;
+    margin-left: 80px;
     list-style: none;
+}
+
+.menu {
+    background-color: #FBE690;
+    margin-top: 0px;
+    padding: 30px;
+    margin-bottom: 0;  
+    background-size: auto;
+    animation-name: aparecer;
+    animation-duration: 5s;
+    animation-delay: initial;
+    animation-delay: auto;
+}
+
+.pastelito {
+    margin-top: 90px;
+    margin-bottom:100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.pastelito:hover{
+    animation-name: move5;
+    animation-duration: .5s;
+    position: relative;
 }
 
 .logo {
     width: 650px;
     height: 100px;
     margin-bottom: px;
-}
-
-@font-face {
-    font-family: 'Product Sans';
-    src: url("fonts/ProductSans.woff2");
 }
 
 a {
@@ -113,11 +181,25 @@ nav.flex {
 
 .hamburpapa {
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
 }
 
+.especialidad {
+    top: 100px;
+    width: 1295px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.especialidad:hover {
+    animation-name: move2;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-direction: normal;
+}
 .imagenes {
     font-size: 40px;
     background-color: white;
@@ -126,16 +208,23 @@ nav.flex {
 }
 
 .follow {
-color: black;
-font-size: 50px;
-text-align: center;
-margin-top: 90px;
-margin-bottom: 40px;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+
+.collage:hover{
+    animation-name: move3;
+    animation-duration: .8s;
+    animation-delay: initial;
 }
 
 .collage {
     margin-top: 30px;
     margin-bottom: 50px; 
+    width: 1295px;
 }
 
 .favoritas {
@@ -143,6 +232,12 @@ margin-bottom: 40px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 850px;
+}
+
+.favoritas:hover{
+    animation-name: move4;
+    animation-duration: 1s;
 }
 
 .hamb {
@@ -152,6 +247,11 @@ margin-bottom: 40px;
     font-size: 35px;
     margin-left: 310px;
     margin-bottom: 15px;
+}
+
+.hamb:hover{
+    animation-name: mov;
+    animation-duration: 1s;
 }
 
 .alitas {
@@ -202,6 +302,9 @@ margin-bottom: 40px;
     top: 30%;
     position: absolute;
     padding: 32px;
+    animation-name: aparecer;
+    animation-duration: 5s;
+    animation-delay: initial;
 }
 
 .ricas {
@@ -211,6 +314,9 @@ margin-bottom: 40px;
     width: 55%;
     top: 50%;
     padding: 32px;
+    animation-name: aparecer;
+    animation-duration: 5s;
+    animation-delay: initial;
 }
 
 .contactanos {
@@ -245,13 +351,6 @@ margin-bottom: 40px;
     border: 2px solid red;
 }
 
-.especialidad {
-    top: 100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .menu-boton {
     width: 200px;
     font-family: "alte";
@@ -273,14 +372,6 @@ margin-bottom: 40px;
     color: red;
     font-size: 100px;
     margin-left: 15%;
-}
-
-.menu {
-    background-color: #FBE690;
-    margin-top: 0px;
-    padding: 30px;
-    margin-bottom: 0;  
-    background-size: auto;
 }
 
 .product {
@@ -340,6 +431,10 @@ margin-bottom: 40px;
     font-family: "alte";
     color: black;
     font-size: 50px;
+    animation-name: aparecer;
+    animation-duration: 3s;
+    animation-delay: initial;
+    animation-delay: auto;
 }
 
 .lunes{
@@ -369,6 +464,12 @@ margin-bottom: 40px;
     margin-top: none;
 }
 
+.sociales:hover{
+    animation-name: rebote2;
+    animation-duration: .5s;
+    position: relative;
+}
+
 .arroba {
     font-family: "alte";
     color: black;
@@ -384,6 +485,7 @@ margin-bottom: 40px;
     border: none;
     border-bottom: 2px solid black;
     margin-left: 36px;
+    outline: none;
 }
 
 .apellido {
@@ -393,6 +495,7 @@ margin-bottom: 40px;
     border: none;
     border-bottom: 2px solid black;
     margin-bottom: 10px;
+    outline: none;
 }
 
 .email {
@@ -402,6 +505,7 @@ margin-bottom: 40px;
     border: none;
     border-bottom: 2px solid black;
     margin-left: 36px;
+    outline: none;
 }
 
 .mensaje {
@@ -410,7 +514,7 @@ margin-bottom: 40px;
     background: none;
     border: none;
     border-bottom: 2px solid black;
-    
+    outline: none;
 }
 
 .nombre2{
@@ -462,7 +566,6 @@ margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     margin-left: 50px;
-    margin-top: ;
 }
 
 .class {
@@ -488,7 +591,6 @@ margin-bottom: 40px;
     margin-left: 50px;
 }
 
-
 .enviar {
     background-color: white;
     color: black;
@@ -500,6 +602,7 @@ margin-bottom: 40px;
     cursor: pointer;
     margin-top: 20px;
     margin-left: 86px;
+    outline: none;
 }
 
 .deja {
@@ -514,6 +617,10 @@ margin-bottom: 40px;
     margin-top: 50px;
     margin-right: 50%;
     margin-left: 10%;
+    animation-name: aparecer;
+    animation-duration: 3s;
+    animation-delay: initial;
+    animation-delay: auto;
 }
 
 .msj {
@@ -523,27 +630,32 @@ margin-bottom: 40px;
     font-size: 23px;
     margin-left: 10%;
     margin-bottom: 20px;
+    animation-name: aparecer;
+    animation-duration: 3s;
+    animation-delay: initial;
+    animation-delay: auto;
 }
 
 .videos {
     margin-left: 174px;
     margin-bottom: 100px;
-}
-
-.pastelito {
-    margin-top: 90px;
-    margin-bottom:100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.pastelito:hover{
-    animation-name: rebote;
-    animation-duration: .5s;
-    position: relative;
-}
-
-.vid1 {
     border: none;
 }
+
+.photo{
+    width: 300px;
+    padding: 8px;
+}
+
+.photos{
+    margin-left: 83px;
+    margin-bottom: 85px;
+    margin-top: 85px;
+}
+
+.photo:hover {
+    width: 350px;  
+    animation-name: aparecer2;
+    animation-duration: 1s;
+}
+
